@@ -1,0 +1,67 @@
+{
+    "isFirtsRun": false,
+    "accounts": [
+      {
+          "accoutnName": "My Accont Name(display only)",
+          "apiKey": "My Api Key",
+          "url": "http://127.0.0.1:3001/api",
+          "albuns": [
+              {
+                  "id": "Album ID where the persons should be merged",
+                  "name": "Album A(display only)",
+                  "persons": [
+                      {
+                          "id": "person id from",
+                          "name": "person name(display only)"
+                      },
+                      {
+                          "id": "another person id from",
+                          "name": "another person name(display only)"
+                      }
+                  ]
+              },
+              {
+                  "id": "another album  id",
+                  "name": "another album name(display only)",
+                  "persons": [
+                      {
+                          "id": "person id",
+                          "name": "person name(display only)"
+                      }
+                  ]
+              }
+          ]
+      },      
+      {
+        "accoutnName": "Another account (display only)",
+        "apiKey": "another account API Key",
+        "url": "http://127.0.0.1:3001/api",
+        "albuns": [
+            {
+                "id": "Album ID where the persons should be merged",
+                "name": "Album A(display only)",
+                "persons": [
+                    {
+                        "id": "person id from",
+                        "name": "person name(display only)"
+                    },
+                    {
+                        "id": "another person id from",
+                        "name": "another person name(display only)"
+                    }
+                ]
+            },
+            {
+                "id": "another album  id",
+                "name": "another album name(display only)",
+                "persons": [
+                    {
+                        "id": "person id",
+                        "name": "person name(display only)"
+                    }
+                ]
+            }
+        ]
+    }
+  ]
+}
