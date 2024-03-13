@@ -7,7 +7,7 @@ import loggerManager
 
 try:
   
-  logger = loggerManager.get_module_logger('immichiAutoAlbum.py')
+  logger = loggerManager.get_module_logger('immichAutoAlbum.py')
   filepath = Path(__file__).parent / 'config.json'
 
   with open(filepath, 'r') as f:

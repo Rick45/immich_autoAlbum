@@ -2,7 +2,7 @@ FROM python:latest
 WORKDIR /app
 
 COPY loggerManager.py /app/loggerManager.py
-COPY immchiAutoAlbum.py /app/immchiAutoAlbum.py
+COPY ImmichAutoAlbum.py /app/ImmichAutoAlbum.py
 COPY immichAPI.py /app/immichAPI.py
 
 COPY config.json /app/config.json
@@ -15,6 +15,6 @@ RUN apt-get update && apt-get -y install cron && \
     /usr/bin/crontab /etc/cron.d/crontab
 
 #uncoment this line if you want it to do an update on start
-#RUN /usr/local/bin/python3 /app/immchiAutoAlbum.py
+#RUN /usr/local/bin/python3 /app/ImmichAutoAlbum.py
 
 CMD ["cron", "-f"]
