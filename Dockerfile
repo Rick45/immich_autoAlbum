@@ -14,7 +14,7 @@ RUN apt-get update && apt-get -y install cron && \
     chmod 0644 /etc/cron.d/crontab && \
     /usr/bin/crontab /etc/cron.d/crontab
 
-#uncoment this line if you want it to do an update on start
+#uncoment this line if you want it to do an update on build
 #RUN /usr/local/bin/python3 /app/ImmichAutoAlbum.py
 
 CMD ["cron", "-f"]
