@@ -1,16 +1,8 @@
 # immchiAutoAlbum
 
-
-
-## Maintainerr
-
-
-
 ## Desciption
 This Python script is designed to emulate the smart albums from Google Photos for [Immich](https://github.com/immich-app/immich).
 This will aggregate "people" in an album automatically.
-
-
 
 
 ## Configuration
