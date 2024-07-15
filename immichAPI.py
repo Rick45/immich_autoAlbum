@@ -52,7 +52,7 @@ def getAllAlbums(accountNumber):
 
 def addAssetsToAlbum(accountNumber,album_uuid, assets_list):
     credentials=getAccoutnConfig(accountNumber)
-    url=credentials.BASE_URL + '/album/'+album_uuid+'/assets'
+    url=credentials.BASE_URL + '/albums/'+album_uuid+'/assets'
     payload = json.dumps(assets_list)
     headers = {
             'Content-Type': 'application/json',

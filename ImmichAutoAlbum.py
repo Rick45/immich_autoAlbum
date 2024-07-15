@@ -18,7 +18,7 @@ try:
   for account in immichConfig["accounts"]:
     #logger.info(f'Account: {account}')
     logger.info(f'Account Name: {account["accoutnName"]}')
-    ricardo_uuid = '9cdaf934-9f92-43a8-b79d-4a4f71640db3'
+    
 
     for album in account["albuns"]:
       #logger.info(f'Album: {album}')
